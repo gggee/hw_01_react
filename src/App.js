@@ -5,7 +5,7 @@ import Music from './pages/music';
 import Recipe from './pages/recipe'
 import Movie from './pages/movie';
 import Resume from './pages/resume';
-
+import Clock from './pages/clock';
 function App() {
   return (
     <Router>
@@ -15,6 +15,7 @@ function App() {
         <Route path='/recipe' element={<Recipe/>}/>
         <Route path='/book' element={<Book/>}/>
         <Route path='/resume' element={<Resume/>}/>
+        <Route path='/clock' element={<Clock/>}/>
       </Routes>
     </Router>
   );
