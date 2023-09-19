@@ -6,6 +6,7 @@ import Recipe from './pages/recipe'
 import Movie from './pages/movie';
 import Resume from './pages/resume';
 import Clock from './pages/clock';
+import Pets from './pages/pets';
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
         <Route path='/book' element={<Book/>}/>
         <Route path='/resume' element={<Resume/>}/>
         <Route path='/clock' element={<Clock/>}/>
+        <Route path='/pets' element={<Pets/>}/>
       </Routes>
     </Router>
   );
